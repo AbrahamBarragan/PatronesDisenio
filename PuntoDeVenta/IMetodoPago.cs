@@ -2,6 +2,6 @@
 {
     internal interface IMetodoPago
     {
-        public void Pagar(double cantidad);
+        void ProcesarPago(double monto);
     }
 }
