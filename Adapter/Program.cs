@@ -24,7 +24,7 @@ IPago pagoC = new PagoCheque();
 Ventas ventaC = new Ventas(pagoC);
 ventaC.ProcesarPago();
 
-IPago pagoC2 = new PagoEfectivo();
+IPago pagoC2 = new PagoCupones();
 Ventas ventaC2 = new Ventas(pagoC2);
 ventaC2.ProcesarPago();
 
